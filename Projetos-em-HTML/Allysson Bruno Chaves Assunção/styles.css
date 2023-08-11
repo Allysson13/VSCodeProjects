@@ -1,0 +1,46 @@
+body{
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+th, td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 2px 30px 2px 2px;
+
+}
+
+.div-table2{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+
+}
+
+.title{
+    background-color: rgb(243, 243, 243);
+}
+
+.grey{
+
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+    padding: 2px 0px;
+
+}
+
+.time{
+
+    padding: 2px 11px;
+
+}
+
+.value{
+
+    padding: 2px 2px 2px 20px;
+
+}

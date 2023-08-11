@@ -1,0 +1,136 @@
+body {
+
+    background-color: black;
+
+}
+
+div {
+
+    text-align: center;
+
+}
+
+h1 {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: blueviolet;
+    text-align: center;
+
+}
+
+h2{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: aqua;
+    text-align: center;
+
+}
+
+p,
+a {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: lightseagreen;
+    text-align: center;
+    font-size: x-large;
+    display: inline;
+    position: relative;
+
+}
+
+button {
+
+    background-color: rgb(164, 212, 255);
+    color: blueviolet;
+    font-size: larger;
+    text-align: center;
+    margin: 15px;
+    position: relative;
+
+}
+
+#stop {
+
+    font-size: large;
+    top: 1090px;
+    left: 1030px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: lightseagreen;
+    text-align: center;
+    display: inline;
+    position: relative;
+    background-color: black;
+    border: 0px solid black;
+    margin: 0px;
+
+}
+
+#text {
+
+    font-size: large;
+    color: blueviolet;
+    top: 1090px;
+    left: 1030px;
+
+}
+
+label {
+
+    color: white;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+input {
+
+    width: 360px;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.button{
+
+    width: max-content;
+    font-size: x-large;
+    text-align: center;
+    background-color: rgb(164, 212, 255);
+    color: blueviolet;
+
+}
+
+textarea {
+
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.inline {
+
+    display: inline;
+    position: relative;
+
+}
+
+#divs{
+
+    text-align: center;
+    width: max-content;
+    margin: auto;
+
+}
+
+.btn{
+
+    padding: 50px 15px;
+    margin: auto;
+    width: max-content;
+    display: inline;
+
+}

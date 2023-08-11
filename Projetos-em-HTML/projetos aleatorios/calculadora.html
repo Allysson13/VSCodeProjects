@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/click.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div>
+        <form action="" method="get">
+
+            <label for="">Número1: </label><br>
+            <input type="text" name="number1" id="n1"><br><br>
+            <label for="">Número2: </label><br>
+            <input type="text" name="number2" id="n2"><br><br><br>
+
+        </form>
+        <div id="divs">
+            <div class="btn">
+                <input type="button" class="button" value="+" onclick="calculo('+')"> &nbsp;&nbsp;
+            </div>
+            <div class="btn">
+                <input type="button" class="button" value="-" onclick="calculo('-')"> &nbsp;&nbsp;
+            </div>
+            <div class="btn">
+                <input type="button" class="button" value="*" onclick="calculo('*')"> &nbsp;&nbsp;
+            </div>
+            <div class="btn">
+                <input type="button" class="button" value=":" onclick="calculo('/')"> &nbsp;&nbsp;
+            </div>
+            <div class="btn">
+                <input type="button" class="button" value="^" onclick="calculo('^')"> &nbsp;&nbsp;
+            </div>
+            <div class="btn">
+                <input type="button" class="button" value="~" onclick="calculo('a')"> &nbsp;&nbsp;
+            </div>
+        </div>
+        <br>
+        <label for="">Saída: </label><br>
+        <input type="text" name="number" id="n3"><br><br><br>
+    </div>
+    <script src="code-calc.js"></script>
+</body>
+</html>

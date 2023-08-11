@@ -1,0 +1,47 @@
+body{
+
+    background-color: bisque;
+
+}
+
+h1{
+
+    color: rgb(107, 52, 1);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+label{
+
+    font-size: x-large;
+    color: rgb(78, 42, 8);
+    text-align: start;
+
+}
+
+input{
+
+    font-size: x-large;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+
+}
+
+button{
+
+    font-size: x-large;
+    background-color:rgb(176, 218, 255);
+
+}
+
+#div-1{
+
+    border: 5px solid darkblue;
+    border-radius: 15px;
+    /*width: max-content;*/
+    width: 1230px;
+    padding: 10px 10px;
+
+}

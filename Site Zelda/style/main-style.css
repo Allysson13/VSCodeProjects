@@ -1,0 +1,275 @@
+body{
+
+    background-color: rgb(213, 198, 122);
+
+    /*background-image: url(img/TotK.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;*/
+
+}
+
+a{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: aquamarine;
+    text-align: center;
+
+}
+
+.aTable{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: aquamarine;
+    text-align: center;
+
+}
+
+a:hover{
+
+    font-weight: bold;
+
+}
+
+li{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+h2{
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    color: black;
+    font-size: larger;
+
+}
+
+h3{
+
+
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgreen;
+
+}
+
+p{
+
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(75, 75, 75);
+
+}
+
+img{
+
+    width: 100px;
+    height: 100px;
+    align-items: center;
+
+}
+
+button{
+
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+
+}
+
+label{
+
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-align: justify;
+
+}
+
+.main-div{
+
+    background-color: rgb(213, 198, 122);
+    /*border: 2px solid darkblue;
+    width: max-content;*/
+
+}
+
+.table1-container{
+
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 50px;
+    margin: auto;
+    width: max-content;
+
+}
+
+#table1{
+
+    background-color: rgb(6, 167, 125);
+    border: 5px solid rgb(255, 218, 31);
+
+}
+
+.split-timeline-table{
+
+    text-align: center;
+    border-radius: 10px;
+    width: max-content;
+    margin: auto;
+
+}
+
+.div-table-title{
+
+    font-size: larger;
+    background-color: rgb(213, 198, 122);
+    /*border: 2px solid darkblue;
+    border-radius: 10px;*/
+    border: none;
+    padding: 15px 50px;
+    margin: auto;
+    margin-right: 100px;
+    width: max-content;
+
+}
+
+.title-row{
+
+    color: rgb(213, 198, 122);
+    background-color: rgb(213, 198, 122);
+    border: none;
+
+}
+
+.table2-container{
+
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: auto;
+    width: max-content;
+    float: left;
+
+}
+
+#table2{
+
+    border: 5px solid rgb(255, 218, 31);
+    background-color: rgb(185, 19, 61);
+
+}
+
+.table3-container{
+
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: auto;
+    width: max-content;
+    float: left;
+
+}
+
+#table3{
+
+    border: 5px solid rgb(255, 218, 31);
+    background-color: rgb(10, 211, 255);
+    margin: 0px 10px;
+
+}
+
+.table4-container{
+
+    text-align: center;
+    border: 5px solid rgb(5, 47, 95);
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: auto;
+    text-align: center;
+    width: max-content;
+    float: right;
+
+}
+
+#table4{
+
+    border: 5px solid rgb(255, 218, 31);
+    background-color: rgb(0, 163, 117);
+
+}
+
+.table5-container{
+
+    text-align: center;
+    border: 5px solid rgb(5, 47, 95);
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: auto;
+    text-align: center;
+    width: max-content;
+    float: right;
+
+}
+
+#table5{
+
+    border: 5px solid rgb(185, 19, 61);
+    background-color: rgb(0, 163, 117);
+
+}
+
+table, th, td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+td{
+
+    font-size: small;
+    padding: 0px 0px;
+
+}
+
+table{
+
+    /*width: 100px;*/
+    table-layout: fixed;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+
+th{
+
+    background-color: rgb(144, 207, 228);
+
+}
+
+tr:nth-child(odd){
+
+    background-color: rgb(244, 250, 255);
+
+}
+
+tr:nth-child(even){
+
+    background-color: rgb(222, 231, 231);
+
+}

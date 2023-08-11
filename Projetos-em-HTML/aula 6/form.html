@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+
+    <h1>Formulário de Entrada</h1>
+
+    <div id="div-1">
+
+        <form action="" method="post">
+
+            <label for="id">Código</label>
+            <input type="text" name="id" id="id"><br><br>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name"><br><br>
+            <label for="date">Data de Nascimento</label>
+            <input type="date" name="datebirth" id="datebirth"><br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"><br><br>
+
+            <label for="interests">Assuntos de Interesse</label><br>
+            <input type="checkbox" name="interests" id="interests" value="PW">Programação Web <br>
+            <input type="checkbox" name="interests" id="interests" value="PW">Programação Mobile <br>
+            <input type="checkbox" name="interests" id="interests" value="PW">Games <br>
+            <input type="checkbox" name="interests" id="interests" value="PW">Sistemas Operacionais <br>
+            <input type="checkbox" name="interests" id="interests" value="PW">Redes <br><br><br>
+
+            <label for="interests">Estado Civil</label><br>
+            <input type="radio" name="civilState" id="CivilState">Solteiro(a)<br>
+            <input type="radio" name="civilState" id="CivilState">Casado(a)<br>
+            <input type="radio" name="civilState" id="CivilState">Divorciado(a) <br>
+            <input type="radio" name="civilState" id="CivilState">Viúvo(a)<br>
+            <input type="radio" name="civilState" id="CivilState">União Estável<br><br><br>
+
+            <label for="course">Curso</label>
+
+            <select name="course" id="course">
+
+                <option value="inf">Informática</option>
+                <option value="inf">Administração</option>
+                <option value="inf">Metalurgia</option>
+                <option value="inf">Química</option>
+
+            </select><br><br>
+
+            <label for="ps">Observações</label>
+            <textarea name="ps" id="ps" cols="50" rows="5"></textarea><br><br>
+
+            <button onclick="send()" id="send">Enviar</button>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

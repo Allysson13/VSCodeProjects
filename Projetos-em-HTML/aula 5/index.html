@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<style>
+
+        table, tr, td{
+
+            text-align: center;
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 0px 2px;
+
+        }
+
+        th{
+
+            background-color: rgb(81, 141, 209);
+
+        }
+
+        td.col1{
+
+            text-align: center;
+
+        }
+
+        td.col2{
+
+            text-align: left;
+            padding-right: 200px;
+
+        }
+
+    </style>-->
+
+    <style>
+
+        /*table, tr, td, th{
+
+            text-align: center;
+            border: 1px solid black;
+            padding: 0px 2px;
+
+        }
+
+        td{
+
+            text-align: left;
+
+        }
+
+        h1{
+
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            font-weight: normal;
+
+        }
+
+        h2{
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-weight: lighter;
+
+        }
+
+        .nobr{
+
+            white-space: nowrap;
+            display: inline;
+
+        }
+
+        p, h3{
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+
+        }
+
+        /*p{
+
+            font-size: 15px;
+            color: blue;
+            text-align: justify;
+            background-color: white;
+
+        }*/
+
+        table, tr, th, td{
+
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+
+        td{
+
+            padding: 2px 5px;
+            font-weight: bold;
+
+        }
+
+        td.cinza{
+
+            background-color: rgb(201, 200, 200);
+
+        }
+
+        td.aliceblue{
+
+            background-color: rgb(220, 235, 250);
+            font-weight: lighter;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <h2>Lista de Compras</h2>
+    <ol style="list-style-type: a;">
+        <li>Perfumaria
+            <ol style="list-style: square;">
+                <li>Esmalte</li>
+                <li>Banho</li>
+                <ol style="list-style: circle;">
+                    <li>Shampoo</li>
+                    <li>Condicionador</li>
+                    <li>Sabonete</li>
+                </ol>
+                <li>Creme para o corpo</li>
+                <li>Creme para as mãos</li>
+                <li>Desodorante</li>
+            </ol>
+        </li>
+        <li>Alimentação
+            <ol type="1">
+                <li>Macarrão</li>
+                <li>Grãos</li>
+                <ol start="21">
+                    <li>Arroz</li>
+                    <li>Feijão</li>
+                </ol>
+                <li>Carnes</li>
+                <li>Verduras</li>
+                <li>Legumes</li>
+            </ol>
+        </li>
+        <li>Material de Limpeza</li>
+    </ol>
+
+    <table>
+
+        <tr>
+            <th colspan="2">Técnico em Informática Integrado</th>
+        </tr>
+        <tr>
+            <td class="col1" rowspan="2">Programação para Internet</td>
+            <td class="col2">HTML e CSS</td>
+        </tr>
+        <tr>
+            <td class="col2">Javascript e PHP</td>
+        </tr>
+        <tr>
+            <td class="col1" rowspan="4">Projeto de Software II</td>
+            <td class="col2">Análise de Sistemas</td>
+        </tr>
+        <tr>
+            <td class="col2">Modelagem UML</td>
+        </tr>
+        <tr>
+            <td class="col2">Implementação</td>
+        </tr>
+        <tr>
+            <td class="col2">Testes</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <table>
+
+        <tr>
+
+            <th>Tabela</th>
+            <th>Hora da saída</th>
+            <th>Hora da chegada</th>
+            <th>Classe de ônibus</th>
+            <th>Tarifa normal</th>
+            <th>Frequência</th>
+
+        </tr>
+
+        <tr>
+
+            <th>Cidade A</th>
+            <td>06:00</td>
+            <td>14:00</td>
+            <td>Convencional</td>
+            <td>20,00</td>
+            <td>Diária</td>
+
+        </tr>
+
+        <tr>
+
+            <th>Cidade B</th>
+            <td>12:00</td>
+            <td>15:00</td>
+            <td>Convencional</td>
+            <td>10,00</td>
+            <td>Diária</td>
+
+        </tr>
+
+        <tr>
+
+            <th>Cidade C</th>
+            <td>06:00</td>
+            <td>14:00</td>
+            <td>Leito</td>
+            <td>15,00</td>
+            <td>Domingos</td>
+
+        </tr>
+
+        <tr>
+
+            <th>Cidade D</th>
+            <td>06:00</td>
+            <td>14:00</td>
+            <td>Convencional</td>
+            <td>10,00</td>
+            <td>Diária</td>
+
+        </tr>
+
+        <tr>
+
+            <th>Cidade E</th>
+            <td>06:00</td>
+            <td>14:00</td>
+            <td>Executivo</td>
+            <td>30,00</td>
+            <td>Domingos</td>
+
+        </tr>
+
+        <tr>
+
+            <th>Cidade F</th>
+            <td>06:00</td>
+            <td>14:00</td>
+            <td>Convencional</td>
+            <td>80,00</td>
+            <td>Sábados</td>
+
+        </tr>
+        
+        <tr>
+
+            <th>Cidade G</th>
+            <td>06:00</td>
+            <td>14:00</td>
+            <td>Convencional</td>
+            <td>26,00</td>
+            <td>Diária</td>
+
+        </tr>
+
+        <tr>
+
+            <th>Cidade H</th>
+            <td>22:00</td>
+            <td>23:00</td>
+            <td>Executivo</td>
+            <td>16,00</td>
+            <td>Diária</td>
+
+        </tr>
+
+        <tr>
+
+            <td colspan="6">Horários de ônibus</td>
+
+        </tr>
+
+    </table>
+
+    <a href="http://www.ifmg.edu.br/ourobranco">Link</a>
+    <br>
+
+    <h1 class="nobr">Ouro Branco</h1>
+    <h2>Municipio em Alagoas</h2>
+    <br>
+    <hr>
+    <br>
+
+    <p class="nobr">Ouro Branco é um município brasileiro do estado de Minas Gerais, na Região Sudeste do Brasil. <br> A cidade de Ouro Branco ocupou em 2010 a 1.a posição no ranking das melhores cidades do estado de Minas Gerais.</p>
+    <a href="https://pt.wikipedia.org/wiki/Ouro_Branco_(Minas_Gerais))">Wikipédia</a>
+    <br>
+    <h3 class="nobr">Área: </h3> <p class="nobr">258.726 km2</p> <br>
+    <h3 class="nobr">Tempo: </h3> <p class="nobr">24 °C, vento S a 8km/h, umidade de 90%</p> <br>
+    <h3 class="nobr">Hotéis: </h3> <p class="nobr">3 estrelas por uma média de R$171, 5 estrelas por uma média de R$ 154.</p> <a href="">Ver hotéis</a> <br>
+    <h3 class="nobr">Hora local: </h3> <p class="nobr">segunda-feira, 11:09</p> <br>
+    <h3 class="nobr">População total (Est. IBGE/2015): </h3> <p class="nobr">38 249 hab</p> <br>
+    <br><br>
+    <table>
+
+        <tr>
+
+            <td class="cinza" rowspan="2">13:10 às 14:00</td>
+            <td>Empreendedorismo</td>
+            <td>Matemática III</td>
+            <td class="cinza" rowspan="8" style="padding: 10px 80px;"></td>
+            <td>Física III</td>
+            <td>Lingua Portuguesa/ <br> Literatura III</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="aliceblue">Maurício Leão</td>
+            <td class="aliceblue">Alexandre</td>
+            <td class="aliceblue">Antônio Marcos</td>
+            <td class="aliceblue">Heleniara</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="cinza" rowspan="2">14:00 às 14:50</td>
+            <td>Empreendedorismo</td>
+            <td>Matemática III</td>
+            <td>Física III</td>
+            <td>Lingua Portuguesa/ <br> Literatura III</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="aliceblue">Maurício Leão</td>
+            <td class="aliceblue">Alexandre</td>
+            <td class="aliceblue">Antônio Marcos</td>
+            <td class="aliceblue">Heleniara</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="cinza" rowspan="2">15:10 às 16:00</td>
+            <td>Geografia III</td>
+            <td>Programação Web</td>
+            <td>Projeto Software II</td>
+            <td>Sociologia III</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="aliceblue">Rul</td>
+            <td class="aliceblue">Márcio</td>
+            <td class="aliceblue">Carlos Paulino</td>
+            <td class="aliceblue">Aurélio</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="cinza" rowspan="2">16:00 às 16:50</td>
+            <td>Geografia III</td>
+            <td>Programação Web</td>
+            <td>Projeto Software II</td>
+            <td>Sociologia III</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="aliceblue">Rul</td>
+            <td class="aliceblue">Márcio</td>
+            <td class="aliceblue">Carlos Paulino</td>
+            <td class="aliceblue">Aurélio</td>
+
+        </tr>
+
+    </table>
+
+</body>
+</html>

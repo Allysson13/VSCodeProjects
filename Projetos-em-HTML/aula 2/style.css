@@ -1,0 +1,16 @@
+body{
+
+    font: optional;
+    color: blueviolet;
+    margin-left: auto;
+    align-self: auto;
+    
+}
+
+button{
+
+    font-size: larger;
+    color: blue;
+    border-color: brown;
+
+}

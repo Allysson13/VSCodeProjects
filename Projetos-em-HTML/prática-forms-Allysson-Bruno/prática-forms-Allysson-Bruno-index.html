@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática Forms</title>
+</head>
+<body>
+
+    <div class="main">
+
+        <form action="code.js" method="post">
+    
+            <h1>SISTEMA DE GESTÃO ACADÊMICA</h1>
+            <h1>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h1>
+
+            <label for="login">Login</label>
+            <input type="text" name="login" id="login" required autofocus><br><br>
+            <label for="login">Senha</label>
+            <input type="password" name="password" id="password" required><br><br>
+
+            <label for="status">Status</label>
+
+            <select name="status" id="status">
+
+                <option value="on">Ativo</option>
+                <option value="of">Inativo</option>
+
+            </select><br><br>
+
+            <label for="type">Tipo</label><br>
+            <input type="radio" name="type" id="tec" required>Técnico
+            <input type="radio" name="type" id="teacher" required>Professor
+            <input type="radio" name="type" id="student" required>Aluno <br><br>
+
+            <label for="date">Data da criação</label>
+            <input type="date" name="date" id="date" required><br><br>
+
+            <label for="profile">Perfil</label><br>
+            <input type="radio" name="profile" id="guest" required>Convidado
+            <input type="radio" name="profile" id="adm" required>Administrador <br><br>
+
+            <label for="ps">Observações</label><br><br>
+            <textarea name="ps" id="ps" cols="20" rows="3"></textarea><br><br>
+
+            <label for="mode">Módulos</label><br>
+            <input type="checkbox" name="mode" id="shops">Compras
+            <input type="checkbox" name="mode" id="librarys">Bibliotecas
+            <input type="checkbox" name="mode" id="academy">Acadêmico<br><br>
+
+            <input type="checkbox" name="mode" id="shops">Documentação
+            <input type="checkbox" name="mode" id="librarys">Recursos Humanos <br><br>
+
+            <button onclick="submit()" id="submit">Cadastrar</button>
+            <button onclick="del()" id="delete">Excluir</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
